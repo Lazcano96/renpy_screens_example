@@ -17,6 +17,10 @@ define mirespuesta = 0
 
 label start:
 
+    jump lazca
+
+    label start1:
+
     call calculadora("150","2","*")
 
     n "El resultado es: [_return]"
